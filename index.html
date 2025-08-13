@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taste Haven Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f4f0;
+        }
+        header {
+            background-color: #b33a3a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #f4d4d4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #b33a3a;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #b33a3a;
+            border-bottom: 2px solid #b33a3a;
+            padding-bottom: 5px;
+        }
+        .menu-item {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .menu-item h3 {
+            margin: 0;
+            color: #444;
+        }
+        .menu-item p {
+            color: #666;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #b33a3a;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #922b2b;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #b33a3a;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍽 Taste Haven Restaurant</h1>
+    <p>Delicious food, unforgettable moments</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Taste Haven</h2>
+    <p>We serve a variety of dishes made from fresh ingredients, cooked with love. Whether you’re looking for a quick snack or a full-course meal, we’ve got you covered.</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+        <h3>Margherita Pizza - ₹299</h3>
+        <p>Classic cheese pizza with fresh tomatoes and basil.</p>
+    </div>
+    <div class="menu-item">
+        <h3>Butter Chicken - ₹399</h3>
+        <p>Creamy tomato gravy with tender chicken pieces, served with naan.</p>
+    </div>
+    <div class="menu-item">
+        <h3>Chocolate Lava Cake - ₹199</h3>
+        <p>Warm chocolate cake with a gooey center, served with ice cream.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label>Your Name:</label>
+        <input type="text" name="name" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Message:</label>
+        <textarea name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Taste Haven Restaurant. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
